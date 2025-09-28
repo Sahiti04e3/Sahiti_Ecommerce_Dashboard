@@ -1,7 +1,19 @@
-# Remove `artifacts/` and `data/` from `.gitignore` so your generated CSV and PNGs will be committed to GitHub.
-
-# Suggested `.gitignore`:
+## Python cache files
 __pycache__/
-.ipynb_checkpoints/
 *.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment folders (keep your virtual env out of Git)
+sahi_env/
 .env
+
+# Optional: ignore system files
+.DS_Store
+Thumbs.db
+
+# Keep data/ and artifacts/ in Git so charts and CSVs are visible on GitHub
+# Remove or comment these lines if you want them tracked
+# data/
+# artifacts/
