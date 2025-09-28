@@ -1,0 +1,7 @@
+# Remove `artifacts/` and `data/` from `.gitignore` so your generated CSV and PNGs will be committed to GitHub.
+
+# Suggested `.gitignore`:
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
